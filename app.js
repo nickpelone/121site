@@ -1,4 +1,4 @@
-/*jslint browser:true, devel:true */
+/*jshint browser:true, devel:true */
 (function () {
     "use strict";
     //code
