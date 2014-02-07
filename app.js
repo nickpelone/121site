@@ -1,6 +1,7 @@
 /*jshint browser:true, devel:true */
 (function () {
     "use strict";
+    //test change
     //code
     var colorChanger = setInterval(function () {
         /* how this works:
