@@ -1,18 +1,27 @@
+/*
+    External CSS - Assignment 1
+    NM 121
+
+*/
+/*set the default font, font color, background, and font size for the page */
 body {
     color: white;
     background: black;
     font-family: 'Roboto', sans-serif;
     font-size:80%;
 }
+/* Make links (a tags) undecorated instead of their default, blue underline look */
 a {
     color: inherit;
     text-decoration: none;
 }
+/* Used during actual external links to other pages */
 .specialLink {
     color: #ff8e8e;
     text-decoration: underline;
     padding-left:100px;
 }
+/* Decorates the "button" like boxes that I use as a menu at the top of the page */
 .button {
     display: inline-block;
     align-self: center;
@@ -22,6 +31,7 @@ a {
     font-size: 111%;
     background: rgba(180, 89, 89, 0.51)
 }
+/* Special classes I use instead of headline tags, because they're deprecated */
 .headerText {
     font-size: 500%;
     color: #54cba6;
@@ -30,6 +40,8 @@ a {
     padding-left: 100px;
     font-size: 120%;
 }
+/* This controls the area I use to show quoted information from wikipedia.
+    Using border-radius, I turn it into an oval looking bubble thing. */
 .fromWikipedia {
     padding-left: 100px;
     padding-right: 100px;
@@ -40,6 +52,7 @@ a {
     margin: 5em;
     border-radius: 100em;
 }
+/* This pushes my ascii hologram off the left edge of the page */
 .padder {
     padding: 100px;
     color: #FFFFFF
